@@ -1,0 +1,19 @@
+header {
+  /* background-color: #666; */
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+main {
+  text-align: center;
+}
+footer {
+  /* background-color: #777; */
+  padding: 60px;
+  text-align: center;
+  color: black;
+}
+body {
+  background-color: pink;
+}

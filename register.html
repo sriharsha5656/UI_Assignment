@@ -1,0 +1,88 @@
+<html>
+    <head>
+    <style>
+        th{
+            float:left;
+        }
+    </style>
+    <link rel="stylesheet" href="./css/practice.css">
+    </head>
+    <body>
+        <script src="./js/register.js"></script>
+        <header>
+            <h1>XYZ AIRLINES</h1>
+            <br />
+            <div>
+              <img
+                src="flight_1.jpg"
+                alt="flight information"
+                width="550"
+                height="250"
+              />
+            </div>
+            <br />
+        </header>
+        <br>
+        <main>
+            <h2>FLIGHT REGISTRATION FORM</h2>
+            <form id="myform" onsubmit=" return validate()" action="conformation.html">
+          <table border="1">
+              <tr>
+                  <th style="margin-top: 30px; "><label>FlightCode</label>: <input type="text" name="flightcode" placeholder="flightcode" id="flightcode"></th><br>
+              </tr>
+              
+              <tr>
+                <th style="margin-top: 30px; "><label>From</label>:<input type="text" name="from" id="from" placeholder="From location"></th><br>
+             </tr>
+
+             
+             <tr>
+                <th style="margin-top: 30px; "><label>To</label>:<input type="text" name="to" id="to" placeholder="Destination"></th><br>
+             </tr>
+
+             
+             <tr>
+                <th style="margin-top: 30px; "><label >DepartureTime</label>:<input type="number" name="departuretime" id="departuretime" placeholder="please enter 1 to 24"></th><br>
+             </tr>
+
+             
+             <tr>
+                <th style="margin-top: 30px; "><label>ArrivalTime</label><input type="number" name="arrivaltime" id="arrivaltime" placeholder="please enter 1 to 24"></th><br>
+             </tr>
+
+             
+             <tr>
+                <th style="margin-top: 30px; "><label style="margin-left: 5px;">Capacity</label><input type="text" name="capacity" id="capacity" placeholder="capacity"></th><br>
+             </tr>
+
+             
+             <tr>
+                <th style="margin-left: 70px;margin-top: 5px;margin-bottom: 5px;margin-top: 30px;"><label>Frequency</label><br>
+                    Monday<input type="checkbox" name="formelements" id="monday"><br>
+                    Tuesday<input type="checkbox" name="formelements" id="tuesday"><br>
+                    Wednesday<input type="checkbox" name="formelements" id="wednesday"><br>
+                    Thursday<input type="checkbox" name="formelements" id="thursday"><br>
+                    Friday<input type="checkbox" name="formelements" id="friday"><br>
+                    Saturday<input type="checkbox" name="formelements" id="saturday"><br>
+                    Sunday<input type="checkbox" name="formelements" id="sunday"><br>
+                </th>
+             </tr>
+          </table>
+          <button type="submit" id="submitbtn" style="margin-left: 20px;">Submit</button>
+          </form>
+        </main>
+        <br>
+        <footer>
+            <address>
+                You can contact author at <a href="https://www.google.com">
+                google</a>.<br>
+                contact XYZ AIRLINES</a>.<br>
+                You may also want to visit us:<br>
+                XYZ AIRLINES<br>
+                Mountain View, CA 94041<br>
+                INDIA
+              </address>    
+        </footer>
+    </body>
+
+</html>
